@@ -12,6 +12,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { RouterModule } from '@angular/router';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   
   providers: [],
