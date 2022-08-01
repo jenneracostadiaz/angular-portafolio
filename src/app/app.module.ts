@@ -12,7 +12,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { RouterModule } from '@angular/router';
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { MyComponentComponent } from './my-component/my-component.component';
+import { SearchComponent } from './pages/search/search.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http'
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    MyComponentComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
